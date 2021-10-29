@@ -1,0 +1,123 @@
+ body{
+          	background-image:url(song.png);
+          }
+
+
+
+
+		header,footer{
+      
+       	border: 3px solid black;
+       	margin: 5px
+      
+    
+      border:2px solid black; 
+      height:80px;
+      margin:5px 10px 0 5px;
+}
+     .content{
+      border: 5px solid black;
+      margin: 10px;
+      height: 150%;
+      width: 90%;
+                
+ }
+
+      .band{
+        display: flex;
+        flex-direction: row;
+        border: 2px solid black;
+        margin: 5px;
+        height: 400px;
+        padding: 10px;
+ }
+
+       .one{
+      
+        height: 90%;
+       	flex: 1;
+      
+      overflow-y: auto;
+
+ }
+
+       .two{
+      
+       	height: 90%;
+      color:#aaf2c5;  
+       	margin: 5px;
+        display: flex;
+        flex-direction: row;
+       flex-basis: 450px;
+       justify-content: space-around;
+       border: 2px solid black;
+ }
+.two-item1{
+
+    border: 1px solid black;
+  
+ 
+
+    
+}
+.two-item2{
+
+    border: 1px solid black;
+    
+}
+
+.two-item3{
+
+    border: 1px solid black;
+}
+.two-item4{
+
+    border: 1px solid black;
+}
+.two-item5{
+
+    border: 1px solid black;
+}
+.two-item6{
+
+    border: 1px solid black;
+}
+
+
+
+        
+       .three{
+       
+       	height: 90%;
+       	border: 3px solid black;
+       	margin: 5px;
+       	flex: 3;
+       }
+
+li{
+
+	list-style: none;
+}
+
+nav ul li{
+
+	display: inline-block;
+	background-color: pink;
+
+	margin: 30px;
+	padding: 5px;
+	height: 30px;
+	line-height: 30px;
+	width: 60px;
+	border-radius: 30px;
+	border: 1px solid white;
+
+
+}
+
+nav{
+
+	position: relative;
+	bottom:  80px;
+	left: 300px;
+}
